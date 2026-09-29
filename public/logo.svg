@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tf-outer-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2229" />
+      <stop offset="50%" stop-color="#0d0f12" />
+      <stop offset="100%" stop-color="#2a303c" />
+    </linearGradient>
+    <linearGradient id="tf-metallic-ring" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#9aa0a6" />
+      <stop offset="50%" stop-color="#e8eaed" />
+      <stop offset="75%" stop-color="#5f6368" />
+      <stop offset="100%" stop-color="#dadce0" />
+    </linearGradient>
+    <radialGradient id="tf-disc" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#f1f3f4" />
+      <stop offset="100%" stop-color="#dadce0" />
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="195" fill="url(#tf-outer-rim)" />
+  <circle cx="200" cy="200" r="186" fill="url(#tf-metallic-ring)" />
+  <circle cx="200" cy="200" r="162" fill="#202124" opacity="0.35" />
+  <circle cx="200" cy="200" r="158" fill="url(#tf-disc)" stroke="#bdc1c6" stroke-width="1.5" />
+  
+  <g fill="#0f1115">
+    <path d="M 125,124 C 118,102 129,78 150,71 C 165,66 182,72 191,84 C 183,90 178,98 179,109 C 180,120 188,128 197,133 C 192,142 181,148 170,147 C 152,146 142,135 137,133 Z" />
+    <path d="M 148,84 L 168,91 C 165,101 168,111 176,117 L 158,126 C 151,114 147,98 148,84 Z" fill="url(#tf-disc)" />
+    <path d="M 174,124 L 214,146 L 204,164 L 164,142 Z" />
+    <path d="M 188,162 C 184,152 188,142 196,134 C 204,127 218,128 226,136 C 232,130 244,130 250,137 C 255,133 266,135 270,143 C 274,148 273,156 273,163 C 273,180 263,195 248,197 L 204,197 C 192,197 186,180 188,162 Z" />
+    <path d="M 215,134 C 217,144 218,154 217,164" stroke="url(#tf-disc)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 236,136 C 238,146 238,156 237,166" stroke="url(#tf-disc)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 255,142 C 256,150 256,158 255,166" stroke="url(#tf-disc)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <path d="M 148,164 C 158,163 172,160 188,156 M 166,157 L 152,192 C 150,197 154,200 160,195 C 166,190 174,178 180,168 C 186,158 196,166 193,178 C 190,190 180,198 174,197 C 169,196 172,188 178,186 C 184,184 190,186 192,188 M 193,178 L 197,168 C 198,164 204,166 206,170 L 204,198 L 211,180 C 214,172 222,170 226,176 C 230,182 228,192 220,195 C 214,197 210,193 210,188" fill="none" stroke="#0052cc" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <line x1="120" y1="198" x2="288" y2="198" stroke="#0f1115" stroke-width="4.5" />
+
+  <text x="200" y="248" text-anchor="middle" fill="#0f1115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="48" letter-spacing="2.5">FRANCE</text>
+  <text x="200" y="273" text-anchor="middle" fill="#1e2229" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="15" letter-spacing="5.5">CENTRO AUTOMOTIVO</text>
+</svg>
