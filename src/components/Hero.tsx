@@ -11,7 +11,7 @@ import {
   CalendarCheck,
   MapPin
 } from 'lucide-react';
-import { WHATSAPP_PHONE, WHATSAPP_RAW, GOOGLE_REVIEWS_URL, GOOGLE_MAPS_LOCATION_URL } from '../data/reviewsData';
+import { GOOGLE_MAPS_LOCATION_URL } from '../data/reviewsData';
 import { PeugeotLogo, CitroenLogo, RenaultLogo, MultimarcasLogo } from './BrandLogos';
 import { TopFranceLogo } from './TopFranceLogo';
 
@@ -76,32 +76,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           {/* Left Column: Proposition & Proof */}
           <div className="lg:col-span-7 space-y-6">
             
-            {/* Unboxed Metadata Trust Line (Zero-Pill discipline) with Location Link */}
-            <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-slate-600 dark:text-slate-400 font-medium">
-              <a
-                href={GOOGLE_MAPS_LOCATION_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 font-semibold transition-colors"
-                title="Ver endereço no Google Maps"
-              >
-                <MapPin className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
-                <span>Goiânia - GO (Ver no Google Maps)</span>
-              </a>
-              <span aria-hidden="true" className="text-slate-400 dark:text-slate-600">·</span>
-              <span>Peugeot, Citroën, Renault & Multimarcas</span>
-              <span aria-hidden="true" className="text-slate-400 dark:text-slate-600">·</span>
-              <a 
-                href={GOOGLE_REVIEWS_URL} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-white transition-colors"
-              >
-                <span>Avaliações no Google</span>
-                <ArrowRight className="w-3 h-3 text-blue-600 dark:text-blue-400" />
-              </a>
-            </div>
-
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-5xl lg:text-5xl font-black text-slate-950 dark:text-white tracking-tight leading-[1.1] font-heading max-w-2xl text-balance">
               A oficina certa para quem exige <span className="text-blue-600 dark:text-blue-500">precisão em carros franceses</span> e todas as marcas.
@@ -161,22 +135,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               >
                 <MapPin className="w-4 h-4 text-rose-500 dark:text-rose-400" />
                 <span>Ver Localização da Oficina</span>
-              </a>
-            </div>
-
-            {/* Contact Micro-Data */}
-            <div className="pt-2 flex items-center gap-4 text-xs text-slate-500 dark:text-slate-400">
-              <span className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                <span>Atendimento rápido via WhatsApp:</span>
-              </span>
-              <a
-                href={`https://wa.me/${WHATSAPP_RAW}?text=${encodeURIComponent('Olá Top France! Gostaria de tirar uma dúvida sobre meu veículo.')}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-slate-900 dark:text-white font-bold hover:underline tabular-nums"
-              >
-                {WHATSAPP_PHONE}
               </a>
             </div>
 

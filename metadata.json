@@ -2,5 +2,7 @@
   "name": "Top France - Oficina Mecânica Especializada",
   "description": "Oficina mecânica especializada em veículos franceses (Peugeot, Citroën, Renault e DS) e multimarcas em Goiânia. Revisão geral, troca de óleo de câmbio, arrefecimento e diagnóstico.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

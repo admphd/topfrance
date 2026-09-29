@@ -8,7 +8,7 @@ interface FloatingWhatsAppProps {
 
 export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBooking }) => {
   return (
-    <div className="fixed bottom-4 right-4 z-40 flex items-center gap-2">
+    <div className="fixed bottom-24 right-4 z-40 flex items-center gap-2">
       {/* Tooltip badge for desktop */}
       <div className="hidden sm:flex items-center gap-2 bg-slate-900/90 text-white text-xs font-semibold px-3 py-1.5 rounded-full border border-slate-700 shadow-lg backdrop-blur-sm pointer-events-none">
         <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />

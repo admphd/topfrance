@@ -108,7 +108,7 @@ export const InstagramFeedSection: React.FC = () => {
                     </div>
 
                     <a 
-                      href={INSTAGRAM_URL}
+                      href={post.postUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 p-1"
@@ -120,7 +120,7 @@ export const InstagramFeedSection: React.FC = () => {
 
                   {/* Post Image Container (1:1 Aspect Ratio) */}
                   <a
-                    href={INSTAGRAM_URL}
+                    href={post.postUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block relative aspect-square overflow-hidden bg-slate-100 dark:bg-slate-900 cursor-pointer"
@@ -165,7 +165,7 @@ export const InstagramFeedSection: React.FC = () => {
                         </button>
 
                         <a
-                          href={INSTAGRAM_URL}
+                          href={post.postUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-slate-700 dark:text-slate-300 hover:text-blue-500 transition-colors"
@@ -175,7 +175,7 @@ export const InstagramFeedSection: React.FC = () => {
                         </a>
 
                         <a
-                          href={INSTAGRAM_URL}
+                          href={post.postUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-slate-700 dark:text-slate-300 hover:text-blue-500 transition-colors"
@@ -217,7 +217,7 @@ export const InstagramFeedSection: React.FC = () => {
                   </span>
                   
                   <a
-                    href={INSTAGRAM_URL}
+                    href={post.postUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 font-semibold text-rose-600 dark:text-rose-400 hover:underline"
